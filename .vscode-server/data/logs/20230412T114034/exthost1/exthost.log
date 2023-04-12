@@ -99,3 +99,7 @@
 [2023-04-12 13:36:24.720] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7452
 [2023-04-12 13:36:29.873] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7452
 [2023-04-12 13:36:57.787] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7452
+[2023-04-12 13:37:08.609] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 7452
+[2023-04-12 13:38:28.302] [exthost] [warning] TextEditor is closed/disposed
+[2023-04-12 13:38:33.327] [exthost] [warning] TextEditor is closed/disposed
+[2023-04-12 13:45:41.092] [exthost] [warning] TextEditor is closed/disposed
