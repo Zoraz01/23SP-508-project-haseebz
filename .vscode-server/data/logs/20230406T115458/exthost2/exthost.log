@@ -1,0 +1,16 @@
+[2023-04-06 11:55:23.091] [exthost] [info] Extension host with pid 696038 started
+[2023-04-06 11:55:23.099] [exthost] [info] Lock '/home/23SP/23SP_haseebz/.vscode-server/data/User/workspaceStorage/5e7848b333f835f96548b9a1fee36216/vscode.lock': Lock acquired.
+[2023-04-06 11:55:23.183] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2023-04-06 11:55:23.188] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+[2023-04-06 11:55:23.191] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2023-04-06 11:55:23.270] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2023-04-06 11:55:23.419] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2023-04-06 11:55:23.433] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2023-04-06 11:55:23.436] [exthost] [info] Eager extensions activated
+[2023-04-06 11:55:29.577] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+[2023-04-06 11:56:55.655] [exthost] [info] ExtensionService#_doActivateExtension vscode.php-language-features, startup: false, activationEvent: 'onLanguage:php'
+[2023-04-06 11:59:35.466] [exthost] [info] ExtensionService#_doActivateExtension DEVSENSE.phptools-vscode, startup: false, activationEvent: 'onLanguage:php'
+[2023-04-06 12:01:58.267] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'api', root cause: DEVSENSE.phptools-vscode
+[2023-04-06 12:40:11.107] [exthost] [info] Extension host terminating: renderer disconnected for too long (2)
+[2023-04-06 12:40:11.108] [exthost] [info] Lock '/home/23SP/23SP_haseebz/.vscode-server/data/User/workspaceStorage/5e7848b333f835f96548b9a1fee36216/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2023-04-06 12:40:11.120] [exthost] [info] Extension host with pid 696038 exiting with code 0

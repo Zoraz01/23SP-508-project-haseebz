@@ -1,0 +1,9 @@
+[Info  - 3:53:01 PM] Initialising intelephense 1.9.5
+[Info  - 3:53:01 PM] Initialised in 10 ms
+[Info  - 3:53:01 PM] Environment changed. Refreshing 8 in memory documents.
+[Info  - 3:53:01 PM] Searching file:///home/23SP/23SP_haseebz/.vscode-server/extensions/bmewburn.vscode-intelephense-client-1.9.5/node_modules/intelephense/lib/stub for files to index.
+[Info  - 3:53:01 PM] Searching file:///home/23SP/23SP_haseebz for files to index.
+[Info  - 3:53:01 PM] Indexing started.
+[Info  - 3:53:03 PM] Indexing ended. 225 files indexed in 1s.
+[Info  - 3:53:03 PM] Writing state to /home/23SP/23SP_haseebz/.vscode-server/data/User/workspaceStorage/5e7848b333f835f96548b9a1fee36216/bmewburn.vscode-intelephense-client/6ab9a9da.
+[Info  - 3:53:03 PM] Wrote state in 0.2s.

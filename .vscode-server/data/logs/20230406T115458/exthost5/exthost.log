@@ -1,0 +1,34 @@
+[2023-04-06 15:53:40.483] [exthost] [info] Extension host with pid 739389 started
+[2023-04-06 15:53:40.485] [exthost] [error] Error: EEXIST: file already exists, open '/home/23SP/23SP_haseebz/.vscode-server/data/User/workspaceStorage/5e7848b333f835f96548b9a1fee36216/vscode.lock'
+[2023-04-06 15:53:40.487] [exthost] [info] Lock '/home/23SP/23SP_haseebz/.vscode-server/data/User/workspaceStorage/5e7848b333f835f96548b9a1fee36216/vscode.lock': Could not acquire lock, checking if the file is stale.
+[2023-04-06 15:53:40.490] [exthost] [info] Lock '/home/23SP/23SP_haseebz/.vscode-server/data/User/workspaceStorage/5e7848b333f835f96548b9a1fee36216/vscode.lock': The lock does not look stale, elapsed: 318 ms, giving up.
+[2023-04-06 15:53:40.492] [exthost] [info] Lock '/home/23SP/23SP_haseebz/.vscode-server/data/User/workspaceStorage/5e7848b333f835f96548b9a1fee36216-1/vscode.lock': Lock acquired.
+[2023-04-06 15:53:40.720] [exthost] [info] ExtensionService#_doActivateExtension vscode.php-language-features, startup: false, activationEvent: 'onLanguage:php'
+[2023-04-06 15:53:40.733] [exthost] [info] ExtensionService#_doActivateExtension bmewburn.vscode-intelephense-client, startup: false, activationEvent: 'onLanguage:php'
+[2023-04-06 15:53:40.774] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2023-04-06 15:53:40.776] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2023-04-06 15:53:40.779] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2023-04-06 15:53:40.940] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2023-04-06 15:53:41.002] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2023-04-06 15:53:41.195] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2023-04-06 15:53:41.211] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2023-04-06 15:53:41.214] [exthost] [info] Eager extensions activated
+[2023-04-06 16:16:47.268] [exthost] [info] Extension host terminating: renderer disconnected for too long (2)
+[2023-04-06 16:16:47.268] [exthost] [info] Lock '/home/23SP/23SP_haseebz/.vscode-server/data/User/workspaceStorage/5e7848b333f835f96548b9a1fee36216-1/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2023-04-06 16:16:47.274] [exthost] [error] An error occurred when deactivating the subscriptions for extension 'bmewburn.vscode-intelephense-client':
+[2023-04-06 16:16:47.275] [exthost] [error] TypeError: Cannot read private member from an object whose class did not declare it
+	at Ue (/home/23SP/23SP_haseebz/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/out/vs/workbench/api/node/extensionHostProcess.js:88:7020)
+	at Object.dispose (/home/23SP/23SP_haseebz/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/out/vs/workbench/api/node/extensionHostProcess.js:76:115630)
+	at S (/home/23SP/23SP_haseebz/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/out/vs/workbench/api/node/extensionHostProcess.js:8:12324)
+	at g._deactivate (/home/23SP/23SP_haseebz/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/out/vs/workbench/api/node/extensionHostProcess.js:88:13312)
+	at /home/23SP/23SP_haseebz/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/out/vs/workbench/api/node/extensionHostProcess.js:88:10645
+	at Array.map (<anonymous>)
+	at g._deactivateAll (/home/23SP/23SP_haseebz/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/out/vs/workbench/api/node/extensionHostProcess.js:88:10632)
+	at g.terminate (/home/23SP/23SP_haseebz/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/out/vs/workbench/api/node/extensionHostProcess.js:88:11014)
+	at g.terminate (/home/23SP/23SP_haseebz/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/out/vs/workbench/api/node/extensionHostProcess.js:92:620)
+	at a (/home/23SP/23SP_haseebz/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/out/vs/workbench/api/node/extensionHostProcess.js:102:36855)
+	at k.runner (/home/23SP/23SP_haseebz/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/out/vs/workbench/api/node/extensionHostProcess.js:102:33399)
+	at k.onInterval (/home/23SP/23SP_haseebz/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/out/vs/workbench/api/node/extensionHostProcess.js:61:40661)
+	at listOnTimeout (node:internal/timers:557:17)
+	at processTimers (node:internal/timers:500:7)
+[2023-04-06 16:16:47.277] [exthost] [info] Extension host with pid 739389 exiting with code 0

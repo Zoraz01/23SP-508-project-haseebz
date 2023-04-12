@@ -1,0 +1,11 @@
+[2023-04-06 11:54:59.699] [exthost] [info] Extension host with pid 695928 started
+[2023-04-06 11:54:59.793] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2023-04-06 11:54:59.797] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2023-04-06 11:54:59.801] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2023-04-06 11:54:59.931] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2023-04-06 11:54:59.993] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2023-04-06 11:55:00.089] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2023-04-06 11:55:00.103] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2023-04-06 11:55:00.106] [exthost] [info] Eager extensions activated
+[2023-04-06 12:00:22.362] [exthost] [info] Extension host terminating: renderer disconnected for too long (2)
+[2023-04-06 12:00:22.367] [exthost] [info] Extension host with pid 695928 exiting with code 0

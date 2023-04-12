@@ -1,0 +1,30 @@
+*
+* Visual Studio Code Server
+*
+* By using the software, you agree to
+* the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
+* the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
+*
+Server bound to 127.0.0.1:39420 (IPv4)
+Extension host agent listening on 39420
+
+[11:40:34] Extension host agent started.
+[11:40:34] Error: Unable to retrieve mac address (unexpected format)
+
+Error: Unable to retrieve mac address (unexpected format)
+    at P (/home/23SP/23SP_haseebz/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/out/vs/server/node/server.main.js:69:12421)
+    at D (/home/23SP/23SP_haseebz/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/out/vs/server/node/server.main.js:69:13926)
+    at async /home/23SP/23SP_haseebz/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/out/vs/server/node/server.main.js:69:13783
+    at Timeout._onTimeout (/home/23SP/23SP_haseebz/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/out/vs/server/node/server.main.js:6:34946)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[11:40:34] [127.0.0.1][32437e8d][ManagementConnection] New connection established.
+[11:40:34] [127.0.0.1][214ccbb9][ExtensionHostConnection] New connection established.
+[11:40:34] [127.0.0.1][214ccbb9][ExtensionHostConnection] <883728> Launched Extension Host Process.
+[13:31:18] Getting Manifest... eamodio.gitlens
+[13:31:19] Installing extension: eamodio.gitlens
+[13:31:19] Downloaded extension: eamodio.gitlens /home/23SP/23SP_haseebz/.vscode-server/data/CachedExtensionVSIXs/eamodio.gitlens-12.1.2
+[13:31:19] Extracted extension to /home/23SP/23SP_haseebz/.vscode-server/extensions/.c6ca1f78-e094-40b0-a9d3-0ebf3d4b5fe2: eamodio.gitlens
+[13:31:19] Renamed to /home/23SP/23SP_haseebz/.vscode-server/extensions/eamodio.gitlens-12.1.2
+[13:31:19] Extracting completed. eamodio.gitlens
+[13:31:19] Extension installed successfully: eamodio.gitlens

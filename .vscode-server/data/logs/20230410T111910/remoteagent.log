@@ -1,0 +1,60 @@
+[2023-04-10 11:19:10.510] [remoteagent] [info] Extension host agent started.
+[2023-04-10 11:19:10.510] [remoteagent] [error] Error: Unable to retrieve mac address (unexpected format)
+
+Error: Unable to retrieve mac address (unexpected format)
+    at P (/home/23SP/23SP_haseebz/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/out/vs/server/node/server.main.js:69:12421)
+    at D (/home/23SP/23SP_haseebz/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/out/vs/server/node/server.main.js:69:13926)
+    at async /home/23SP/23SP_haseebz/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/out/vs/server/node/server.main.js:69:13783
+    at Timeout._onTimeout (/home/23SP/23SP_haseebz/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/out/vs/server/node/server.main.js:6:34946)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[2023-04-10 11:19:10.648] [remoteagent] [warning] devsense.composer-php-vscode 1.33.12924 vscode:uninstall should be a node script
+[2023-04-10 11:19:10.649] [remoteagent] [info] devsense.phptools-vscode 1.33.12924 Running post uninstall script
+[2023-04-10 11:19:10.657] [remoteagent] [warning] devsense.profiler-php-vscode 1.33.12924 vscode:uninstall should be a node script
+[2023-04-10 11:19:10.692] [remoteagent] [error] devsense.phptools-vscode 1.33.12924 post-uninstall node:events:368
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: spawn xdg-open ENOENT
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:282:19)
+    at onErrorNT (node:internal/child_process:477:16)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+Emitted 'error' event on ChildProcess instance at:
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:288:12)
+    at onErrorNT (node:internal/child_process:477:16)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'spawn xdg-open',
+  path: 'xdg-open',
+  spawnargs: [
+    'https://www.devsense.com/uninstall?from=vscode&platform=linux-x64&version=1.33.12924'
+  ]
+}
+
+[2023-04-10 11:19:10.696] [remoteagent] [error] devsense.phptools-vscode 1.33.12924 Failed to run post uninstall script: post-uninstall process exited with code 1
+[2023-04-10 11:19:10.698] [remoteagent] [info] [127.0.0.1][88b9cf21][ManagementConnection] New connection established.
+[2023-04-10 11:19:10.701] [remoteagent] [info] Deleted from disk devsense.profiler-php-vscode /home/23SP/23SP_haseebz/.vscode-server/extensions/devsense.profiler-php-vscode-1.33.12924
+[2023-04-10 11:19:10.701] [remoteagent] [info] Deleted from disk devsense.composer-php-vscode /home/23SP/23SP_haseebz/.vscode-server/extensions/devsense.composer-php-vscode-1.33.12924
+[2023-04-10 11:19:10.701] [remoteagent] [info] Deleted from disk devsense.phptools-vscode /home/23SP/23SP_haseebz/.vscode-server/extensions/devsense.phptools-vscode-1.33.12924-linux-x64
+[2023-04-10 11:19:10.739] [remoteagent] [info] [127.0.0.1][5b1e8935][ExtensionHostConnection] New connection established.
+[2023-04-10 11:19:10.743] [remoteagent] [info] [127.0.0.1][5b1e8935][ExtensionHostConnection] <819361> Launched Extension Host Process.
+[2023-04-10 11:23:09.481] [remoteagent] [info] [127.0.0.1][88b9cf21][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2023-04-10 11:23:09.482] [remoteagent] [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/23SP/23SP_haseebz/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/out/vs/server/node/server.main.js:143:7923)
+    at process.emit (node:events:390:28)
+[2023-04-10 13:15:52.839] [remoteagent] [info] [127.0.0.1][88b9cf21][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[2023-04-10 13:15:52.840] [remoteagent] [info] [127.0.0.1][b7773d88][ManagementConnection] New connection established.
+[2023-04-10 13:15:52.970] [remoteagent] [info] [127.0.0.1][4cc3804e][ExtensionHostConnection] New connection established.
+[2023-04-10 13:15:52.994] [remoteagent] [info] [127.0.0.1][4cc3804e][ExtensionHostConnection] <821755> Launched Extension Host Process.
+[2023-04-10 13:20:52.929] [remoteagent] [info] [127.0.0.1][88b9cf21][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
+[2023-04-10 13:20:53.139] [remoteagent] [info] [127.0.0.1][5b1e8935][ExtensionHostConnection] <819361> Extension Host Process exited with code: 0, signal: null.
+[2023-04-10 15:48:18.201] [remoteagent] [info] [127.0.0.1][4cc3804e][ExtensionHostConnection] The client has reconnected.
+[2023-04-10 15:48:21.970] [remoteagent] [info] [127.0.0.1][b7773d88][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2023-04-10 15:48:21.971] [remoteagent] [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/23SP/23SP_haseebz/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/out/vs/server/node/server.main.js:143:7923)
+    at process.emit (node:events:390:28)
+[2023-04-10 18:48:28.515] [remoteagent] [info] [127.0.0.1][b7773d88][ManagementConnection] The reconnection grace time of 3h has expired, so the connection will be disposed.
+[2023-04-10 18:48:31.284] [remoteagent] [info] [127.0.0.1][4cc3804e][ExtensionHostConnection] <821755> Extension Host Process exited with code: 0, signal: null.
+[2023-04-10 18:48:31.284] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2023-04-10 18:53:31.284] [remoteagent] [info] Last EH closed, shutting down

@@ -1,0 +1,37 @@
+[2023-04-06 12:35:12.820] [exthost] [info] Extension host with pid 704031 started
+[2023-04-06 12:35:12.822] [exthost] [error] Error: EEXIST: file already exists, open '/home/23SP/23SP_haseebz/.vscode-server/data/User/workspaceStorage/5e7848b333f835f96548b9a1fee36216/vscode.lock'
+[2023-04-06 12:35:12.825] [exthost] [info] Lock '/home/23SP/23SP_haseebz/.vscode-server/data/User/workspaceStorage/5e7848b333f835f96548b9a1fee36216/vscode.lock': Could not acquire lock, checking if the file is stale.
+[2023-04-06 12:35:12.829] [exthost] [info] Lock '/home/23SP/23SP_haseebz/.vscode-server/data/User/workspaceStorage/5e7848b333f835f96548b9a1fee36216/vscode.lock': The lock does not look stale, elapsed: 987 ms, giving up.
+[2023-04-06 12:35:12.831] [exthost] [info] Lock '/home/23SP/23SP_haseebz/.vscode-server/data/User/workspaceStorage/5e7848b333f835f96548b9a1fee36216-1/vscode.lock': Lock acquired.
+[2023-04-06 12:35:13.237] [exthost] [info] ExtensionService#_doActivateExtension vscode.php-language-features, startup: false, activationEvent: 'onLanguage:php'
+[2023-04-06 12:35:13.251] [exthost] [info] ExtensionService#_doActivateExtension DEVSENSE.phptools-vscode, startup: false, activationEvent: 'onLanguage:php'
+[2023-04-06 12:35:13.355] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2023-04-06 12:35:13.358] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2023-04-06 12:35:13.361] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2023-04-06 12:35:14.290] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2023-04-06 12:35:14.366] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2023-04-06 12:35:14.895] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2023-04-06 12:35:14.910] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2023-04-06 12:35:14.913] [exthost] [info] Eager extensions activated
+[2023-04-06 12:35:20.140] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'api', root cause: DEVSENSE.phptools-vscode
+[2023-04-06 12:36:25.746] [exthost] [error] [DEVSENSE.phptools-vscode] provider FAILED
+[2023-04-06 12:36:25.746] [exthost] [error] Error: Error processing the request 'devsense/resolveToken': document 'file:///home/23SP/23SP_haseebz/public_html/people.php' not found
+	at zt (/home/23SP/23SP_haseebz/.vscode-server/extensions/devsense.phptools-vscode-1.33.12924-linux-x64/out/src/extension.js:62:223)
+	at Xe (/home/23SP/23SP_haseebz/.vscode-server/extensions/devsense.phptools-vscode-1.33.12924-linux-x64/out/src/extension.js:61:11258)
+	at Immediate.<anonymous> (/home/23SP/23SP_haseebz/.vscode-server/extensions/devsense.phptools-vscode-1.33.12924-linux-x64/out/src/extension.js:61:11108)
+	at processImmediate (node:internal/timers:464:21)
+[2023-04-06 12:36:35.187] [exthost] [error] [DEVSENSE.phptools-vscode] provider FAILED
+[2023-04-06 12:36:35.187] [exthost] [error] Error: Error processing the request 'devsense/resolveToken': document 'file:///home/23SP/23SP_haseebz/public_html/people.php' not found
+	at zt (/home/23SP/23SP_haseebz/.vscode-server/extensions/devsense.phptools-vscode-1.33.12924-linux-x64/out/src/extension.js:62:223)
+	at Xe (/home/23SP/23SP_haseebz/.vscode-server/extensions/devsense.phptools-vscode-1.33.12924-linux-x64/out/src/extension.js:61:11258)
+	at Immediate.<anonymous> (/home/23SP/23SP_haseebz/.vscode-server/extensions/devsense.phptools-vscode-1.33.12924-linux-x64/out/src/extension.js:61:11108)
+	at processImmediate (node:internal/timers:464:21)
+[2023-04-06 12:40:06.657] [exthost] [error] [DEVSENSE.phptools-vscode] provider FAILED
+[2023-04-06 12:40:06.657] [exthost] [error] Error: Error processing the request 'devsense/resolveToken': document 'file:///home/23SP/23SP_haseebz/public_html/people.php' not found
+	at zt (/home/23SP/23SP_haseebz/.vscode-server/extensions/devsense.phptools-vscode-1.33.12924-linux-x64/out/src/extension.js:62:223)
+	at Xe (/home/23SP/23SP_haseebz/.vscode-server/extensions/devsense.phptools-vscode-1.33.12924-linux-x64/out/src/extension.js:61:11258)
+	at Immediate.<anonymous> (/home/23SP/23SP_haseebz/.vscode-server/extensions/devsense.phptools-vscode-1.33.12924-linux-x64/out/src/extension.js:61:11108)
+	at processImmediate (node:internal/timers:464:21)
+[2023-04-06 15:30:46.116] [exthost] [info] Extension host terminating: renderer disconnected for too long (2)
+[2023-04-06 15:30:46.117] [exthost] [info] Lock '/home/23SP/23SP_haseebz/.vscode-server/data/User/workspaceStorage/5e7848b333f835f96548b9a1fee36216-1/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2023-04-06 15:30:46.127] [exthost] [info] Extension host with pid 704031 exiting with code 0

@@ -1,0 +1,32 @@
+[2023-04-06 16:11:47.909] [exthost] [info] Extension host with pid 739722 started
+[2023-04-06 16:11:47.919] [exthost] [info] Lock '/home/23SP/23SP_haseebz/.vscode-server/data/User/workspaceStorage/5e7848b333f835f96548b9a1fee36216/vscode.lock': Lock acquired.
+[2023-04-06 16:11:48.119] [exthost] [info] ExtensionService#_doActivateExtension vscode.php-language-features, startup: false, activationEvent: 'onLanguage:php'
+[2023-04-06 16:11:48.132] [exthost] [info] ExtensionService#_doActivateExtension bmewburn.vscode-intelephense-client, startup: false, activationEvent: 'onLanguage:php'
+[2023-04-06 16:11:48.177] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2023-04-06 16:11:48.180] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2023-04-06 16:11:48.183] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2023-04-06 16:11:48.386] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2023-04-06 16:11:48.450] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2023-04-06 16:11:48.627] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2023-04-06 16:11:48.643] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2023-04-06 16:11:48.647] [exthost] [info] Eager extensions activated
+[2023-04-06 16:13:36.207] [exthost] [info] ExtensionService#_doActivateExtension zobo.php-intellisense, startup: false, activationEvent: 'onLanguage:php'
+[2023-04-06 20:33:17.649] [exthost] [info] Extension host terminating: renderer disconnected for too long (1)
+[2023-04-06 20:33:17.650] [exthost] [info] Lock '/home/23SP/23SP_haseebz/.vscode-server/data/User/workspaceStorage/5e7848b333f835f96548b9a1fee36216/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2023-04-06 20:33:17.656] [exthost] [error] An error occurred when deactivating the subscriptions for extension 'bmewburn.vscode-intelephense-client':
+[2023-04-06 20:33:17.657] [exthost] [error] TypeError: Cannot read private member from an object whose class did not declare it
+	at Ue (/home/23SP/23SP_haseebz/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/out/vs/workbench/api/node/extensionHostProcess.js:88:7020)
+	at Object.dispose (/home/23SP/23SP_haseebz/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/out/vs/workbench/api/node/extensionHostProcess.js:76:115630)
+	at S (/home/23SP/23SP_haseebz/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/out/vs/workbench/api/node/extensionHostProcess.js:8:12324)
+	at g._deactivate (/home/23SP/23SP_haseebz/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/out/vs/workbench/api/node/extensionHostProcess.js:88:13312)
+	at /home/23SP/23SP_haseebz/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/out/vs/workbench/api/node/extensionHostProcess.js:88:10645
+	at Array.map (<anonymous>)
+	at g._deactivateAll (/home/23SP/23SP_haseebz/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/out/vs/workbench/api/node/extensionHostProcess.js:88:10632)
+	at g.terminate (/home/23SP/23SP_haseebz/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/out/vs/workbench/api/node/extensionHostProcess.js:88:11014)
+	at g.terminate (/home/23SP/23SP_haseebz/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/out/vs/workbench/api/node/extensionHostProcess.js:92:620)
+	at a (/home/23SP/23SP_haseebz/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/out/vs/workbench/api/node/extensionHostProcess.js:102:36855)
+	at k.runner (/home/23SP/23SP_haseebz/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/out/vs/workbench/api/node/extensionHostProcess.js:102:33312)
+	at k.onInterval (/home/23SP/23SP_haseebz/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/out/vs/workbench/api/node/extensionHostProcess.js:61:40661)
+	at listOnTimeout (node:internal/timers:557:17)
+	at processTimers (node:internal/timers:500:7)
+[2023-04-06 20:33:17.659] [exthost] [info] Extension host with pid 739722 exiting with code 0

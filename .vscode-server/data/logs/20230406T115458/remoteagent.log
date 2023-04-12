@@ -1,0 +1,109 @@
+[2023-04-06 11:54:58.679] [remoteagent] [info] Extension host agent started.
+[2023-04-06 11:54:58.679] [remoteagent] [error] Error: Unable to retrieve mac address (unexpected format)
+
+Error: Unable to retrieve mac address (unexpected format)
+    at P (/home/23SP/23SP_haseebz/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/out/vs/server/node/server.main.js:69:12421)
+    at D (/home/23SP/23SP_haseebz/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/out/vs/server/node/server.main.js:69:13926)
+    at async /home/23SP/23SP_haseebz/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/out/vs/server/node/server.main.js:69:13783
+    at Timeout._onTimeout (/home/23SP/23SP_haseebz/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/out/vs/server/node/server.main.js:6:34946)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[2023-04-06 11:54:58.821] [remoteagent] [info] [127.0.0.1][4303b6aa][ManagementConnection] New connection established.
+[2023-04-06 11:54:58.946] [remoteagent] [info] [127.0.0.1][98011c72][ExtensionHostConnection] New connection established.
+[2023-04-06 11:54:58.951] [remoteagent] [info] [127.0.0.1][98011c72][ExtensionHostConnection] <695928> Launched Extension Host Process.
+[2023-04-06 11:55:14.503] [remoteagent] [info] [127.0.0.1][4303b6aa][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2023-04-06 11:55:22.302] [remoteagent] [info] [127.0.0.1][c8801f7f][ManagementConnection] New connection established.
+[2023-04-06 11:55:22.481] [remoteagent] [info] [127.0.0.1][55510a71][ExtensionHostConnection] New connection established.
+[2023-04-06 11:55:22.515] [remoteagent] [info] [127.0.0.1][55510a71][ExtensionHostConnection] <696038> Launched Extension Host Process.
+[2023-04-06 11:59:32.789] [remoteagent] [info] Getting Manifest... devsense.phptools-vscode
+[2023-04-06 11:59:32.955] [remoteagent] [info] Installing extension: devsense.phptools-vscode
+[2023-04-06 11:59:33.078] [remoteagent] [info] Getting Manifest... devsense.composer-php-vscode
+[2023-04-06 11:59:33.220] [remoteagent] [info] Getting Manifest... devsense.profiler-php-vscode
+[2023-04-06 11:59:33.385] [remoteagent] [info] Installing extension: devsense.composer-php-vscode
+[2023-04-06 11:59:33.385] [remoteagent] [info] Installing extension: devsense.profiler-php-vscode
+[2023-04-06 11:59:33.570] [remoteagent] [info] Downloaded extension: devsense.composer-php-vscode /home/23SP/23SP_haseebz/.vscode-server/data/CachedExtensionVSIXs/devsense.composer-php-vscode-1.33.12924
+[2023-04-06 11:59:33.579] [remoteagent] [info] Downloaded extension: devsense.profiler-php-vscode /home/23SP/23SP_haseebz/.vscode-server/data/CachedExtensionVSIXs/devsense.profiler-php-vscode-1.33.12924
+[2023-04-06 11:59:33.590] [remoteagent] [info] Extracted extension to /home/23SP/23SP_haseebz/.vscode-server/extensions/.09d3a746-7b38-4817-965e-96b89ffbac03: devsense.composer-php-vscode
+[2023-04-06 11:59:33.594] [remoteagent] [info] Renamed to /home/23SP/23SP_haseebz/.vscode-server/extensions/devsense.composer-php-vscode-1.33.12924
+[2023-04-06 11:59:33.597] [remoteagent] [info] Extracting completed. devsense.composer-php-vscode
+[2023-04-06 11:59:33.607] [remoteagent] [info] Extracted extension to /home/23SP/23SP_haseebz/.vscode-server/extensions/.b3a5bf8e-1c4a-4634-b8a1-c23c86ef7c32: devsense.profiler-php-vscode
+[2023-04-06 11:59:33.610] [remoteagent] [info] Renamed to /home/23SP/23SP_haseebz/.vscode-server/extensions/devsense.profiler-php-vscode-1.33.12924
+[2023-04-06 11:59:33.612] [remoteagent] [info] Extracting completed. devsense.profiler-php-vscode
+[2023-04-06 11:59:33.871] [remoteagent] [info] Downloaded extension: devsense.phptools-vscode /home/23SP/23SP_haseebz/.vscode-server/data/CachedExtensionVSIXs/devsense.phptools-vscode-1.33.12924-linux-x64
+[2023-04-06 11:59:34.094] [remoteagent] [info] Extracted extension to /home/23SP/23SP_haseebz/.vscode-server/extensions/.86a308eb-64b8-4e36-9110-d97a0eafe38b: devsense.phptools-vscode
+[2023-04-06 11:59:34.097] [remoteagent] [info] Renamed to /home/23SP/23SP_haseebz/.vscode-server/extensions/devsense.phptools-vscode-1.33.12924-linux-x64
+[2023-04-06 11:59:34.101] [remoteagent] [info] Extracting completed. devsense.phptools-vscode
+[2023-04-06 11:59:34.101] [remoteagent] [info] Extension installed successfully: devsense.composer-php-vscode
+[2023-04-06 11:59:34.101] [remoteagent] [info] Extension installed successfully: devsense.profiler-php-vscode
+[2023-04-06 11:59:34.102] [remoteagent] [info] Extension installed successfully: devsense.phptools-vscode
+[2023-04-06 12:00:22.375] [remoteagent] [info] [127.0.0.1][98011c72][ExtensionHostConnection] <695928> Extension Host Process exited with code: 0, signal: null.
+[2023-04-06 12:24:44.250] [remoteagent] [info] [127.0.0.1][55510a71][ExtensionHostConnection] The client has reconnected.
+[2023-04-06 12:24:48.728] [remoteagent] [info] [127.0.0.1][c8801f7f][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2023-04-06 12:24:48.730] [remoteagent] [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/23SP/23SP_haseebz/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/out/vs/server/node/server.main.js:143:7923)
+    at process.emit (node:events:390:28)
+[2023-04-06 12:35:10.986] [remoteagent] [info] [127.0.0.1][c8801f7f][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[2023-04-06 12:35:10.986] [remoteagent] [info] [127.0.0.1][3e5e246c][ManagementConnection] New connection established.
+[2023-04-06 12:35:11.077] [remoteagent] [info] [127.0.0.1][7f1ae130][ExtensionHostConnection] New connection established.
+[2023-04-06 12:35:11.082] [remoteagent] [info] [127.0.0.1][7f1ae130][ExtensionHostConnection] <704031> Launched Extension Host Process.
+[2023-04-06 12:40:11.017] [remoteagent] [info] [127.0.0.1][c8801f7f][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
+[2023-04-06 12:40:11.133] [remoteagent] [info] [127.0.0.1][55510a71][ExtensionHostConnection] <696038> Extension Host Process exited with code: 0, signal: null.
+[2023-04-06 13:46:29.869] [remoteagent] [info] [127.0.0.1][7f1ae130][ExtensionHostConnection] The client has reconnected.
+[2023-04-06 13:46:33.274] [remoteagent] [info] [127.0.0.1][3e5e246c][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2023-04-06 13:46:33.275] [remoteagent] [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/23SP/23SP_haseebz/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/out/vs/server/node/server.main.js:143:7923)
+    at process.emit (node:events:390:28)
+[2023-04-06 15:25:46.004] [remoteagent] [info] [127.0.0.1][3e5e246c][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[2023-04-06 15:25:46.005] [remoteagent] [info] [127.0.0.1][0cc31263][ManagementConnection] New connection established.
+[2023-04-06 15:25:46.157] [remoteagent] [info] [127.0.0.1][52aab5cf][ExtensionHostConnection] New connection established.
+[2023-04-06 15:25:46.183] [remoteagent] [info] [127.0.0.1][52aab5cf][ExtensionHostConnection] <736373> Launched Extension Host Process.
+[2023-04-06 15:30:46.061] [remoteagent] [info] [127.0.0.1][3e5e246c][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
+[2023-04-06 15:30:46.144] [remoteagent] [info] [127.0.0.1][7f1ae130][ExtensionHostConnection] <704031> Extension Host Process exited with code: 0, signal: null.
+[2023-04-06 15:52:54.592] [remoteagent] [info] Uninstalling extension: devsense.phptools-vscode
+[2023-04-06 15:52:54.595] [remoteagent] [info] Uninstalling extension: devsense.composer-php-vscode
+[2023-04-06 15:52:54.595] [remoteagent] [info] Uninstalling extension: devsense.profiler-php-vscode
+[2023-04-06 15:52:54.702] [remoteagent] [info] Detected extension removed from another source devsense.composer-php-vscode
+[2023-04-06 15:52:54.702] [remoteagent] [info] Detected extension removed from another source devsense.phptools-vscode
+[2023-04-06 15:52:54.702] [remoteagent] [info] Detected extension removed from another source devsense.profiler-php-vscode
+[2023-04-06 15:52:54.727] [remoteagent] [info] Successfully uninstalled extension: devsense.phptools-vscode
+[2023-04-06 15:52:54.733] [remoteagent] [info] Successfully uninstalled extension: devsense.composer-php-vscode
+[2023-04-06 15:52:54.753] [remoteagent] [info] Successfully uninstalled extension: devsense.profiler-php-vscode
+[2023-04-06 15:52:59.744] [remoteagent] [info] Getting Manifest... bmewburn.vscode-intelephense-client
+[2023-04-06 15:52:59.890] [remoteagent] [info] Installing extension: bmewburn.vscode-intelephense-client
+[2023-04-06 15:53:00.356] [remoteagent] [info] Downloaded extension: bmewburn.vscode-intelephense-client /home/23SP/23SP_haseebz/.vscode-server/data/CachedExtensionVSIXs/bmewburn.vscode-intelephense-client-1.9.5
+[2023-04-06 15:53:00.725] [remoteagent] [info] Extracted extension to /home/23SP/23SP_haseebz/.vscode-server/extensions/.987bd0a6-b0aa-492d-8e09-eb9699e7efa4: bmewburn.vscode-intelephense-client
+[2023-04-06 15:53:00.745] [remoteagent] [info] Renamed to /home/23SP/23SP_haseebz/.vscode-server/extensions/bmewburn.vscode-intelephense-client-1.9.5
+[2023-04-06 15:53:00.746] [remoteagent] [info] Extracting completed. bmewburn.vscode-intelephense-client
+[2023-04-06 15:53:00.747] [remoteagent] [info] Extension installed successfully: bmewburn.vscode-intelephense-client
+[2023-04-06 15:53:28.466] [remoteagent] [info] [127.0.0.1][0cc31263][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2023-04-06 15:53:39.407] [remoteagent] [info] [127.0.0.1][517861f7][ManagementConnection] New connection established.
+[2023-04-06 15:53:39.567] [remoteagent] [info] [127.0.0.1][6b54e655][ExtensionHostConnection] New connection established.
+[2023-04-06 15:53:39.574] [remoteagent] [info] [127.0.0.1][6b54e655][ExtensionHostConnection] <739389> Launched Extension Host Process.
+[2023-04-06 15:58:39.512] [remoteagent] [info] [127.0.0.1][52aab5cf][ExtensionHostConnection] <736373> Extension Host Process exited with code: 0, signal: null.
+[2023-04-06 16:02:23.628] [remoteagent] [info] [127.0.0.1][6b54e655][ExtensionHostConnection] The client has reconnected.
+[2023-04-06 16:02:27.694] [remoteagent] [info] [127.0.0.1][517861f7][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2023-04-06 16:02:27.696] [remoteagent] [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/23SP/23SP_haseebz/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/out/vs/server/node/server.main.js:143:7923)
+    at process.emit (node:events:390:28)
+[2023-04-06 16:11:46.986] [remoteagent] [info] [127.0.0.1][517861f7][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[2023-04-06 16:11:46.986] [remoteagent] [info] [127.0.0.1][0708cab7][ManagementConnection] New connection established.
+[2023-04-06 16:11:47.070] [remoteagent] [info] [127.0.0.1][882b8478][ExtensionHostConnection] New connection established.
+[2023-04-06 16:11:47.076] [remoteagent] [info] [127.0.0.1][882b8478][ExtensionHostConnection] <739722> Launched Extension Host Process.
+[2023-04-06 16:13:33.031] [remoteagent] [info] Getting Manifest... zobo.php-intellisense
+[2023-04-06 16:13:33.176] [remoteagent] [info] Installing extension: zobo.php-intellisense
+[2023-04-06 16:13:33.642] [remoteagent] [info] Downloaded extension: zobo.php-intellisense /home/23SP/23SP_haseebz/.vscode-server/data/CachedExtensionVSIXs/zobo.php-intellisense-1.1.2
+[2023-04-06 16:13:35.574] [remoteagent] [info] Extracted extension to /home/23SP/23SP_haseebz/.vscode-server/extensions/.99ac2c1a-07b7-4d3f-9218-5b27ff250774: zobo.php-intellisense
+[2023-04-06 16:13:35.594] [remoteagent] [info] Renamed to /home/23SP/23SP_haseebz/.vscode-server/extensions/zobo.php-intellisense-1.1.2
+[2023-04-06 16:13:35.595] [remoteagent] [info] Extracting completed. zobo.php-intellisense
+[2023-04-06 16:13:35.596] [remoteagent] [info] Extension installed successfully: zobo.php-intellisense
+[2023-04-06 16:16:47.057] [remoteagent] [info] [127.0.0.1][517861f7][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
+[2023-04-06 16:16:47.291] [remoteagent] [info] [127.0.0.1][6b54e655][ExtensionHostConnection] <739389> Extension Host Process exited with code: 0, signal: null.
+[2023-04-06 17:33:03.635] [remoteagent] [info] [127.0.0.1][882b8478][ExtensionHostConnection] The client has reconnected.
+[2023-04-06 17:33:07.718] [remoteagent] [info] [127.0.0.1][0708cab7][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2023-04-06 17:33:07.719] [remoteagent] [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/23SP/23SP_haseebz/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/out/vs/server/node/server.main.js:143:7923)
+    at process.emit (node:events:390:28)
+[2023-04-06 20:33:13.607] [remoteagent] [info] [127.0.0.1][0708cab7][ManagementConnection] The reconnection grace time of 3h has expired, so the connection will be disposed.
+[2023-04-06 20:33:17.671] [remoteagent] [info] [127.0.0.1][882b8478][ExtensionHostConnection] <739722> Extension Host Process exited with code: 0, signal: null.
+[2023-04-06 20:33:17.671] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2023-04-06 20:38:17.671] [remoteagent] [info] Last EH closed, shutting down

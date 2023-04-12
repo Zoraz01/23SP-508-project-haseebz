@@ -1,0 +1,20 @@
+[2023-04-12 11:40:34.697] [remoteagent] [info] Extension host agent started.
+[2023-04-12 11:40:34.697] [remoteagent] [error] Error: Unable to retrieve mac address (unexpected format)
+
+Error: Unable to retrieve mac address (unexpected format)
+    at P (/home/23SP/23SP_haseebz/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/out/vs/server/node/server.main.js:69:12421)
+    at D (/home/23SP/23SP_haseebz/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/out/vs/server/node/server.main.js:69:13926)
+    at async /home/23SP/23SP_haseebz/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/out/vs/server/node/server.main.js:69:13783
+    at Timeout._onTimeout (/home/23SP/23SP_haseebz/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/out/vs/server/node/server.main.js:6:34946)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7)
+[2023-04-12 11:40:34.880] [remoteagent] [info] [127.0.0.1][32437e8d][ManagementConnection] New connection established.
+[2023-04-12 11:40:34.924] [remoteagent] [info] [127.0.0.1][214ccbb9][ExtensionHostConnection] New connection established.
+[2023-04-12 11:40:34.928] [remoteagent] [info] [127.0.0.1][214ccbb9][ExtensionHostConnection] <883728> Launched Extension Host Process.
+[2023-04-12 13:31:18.807] [remoteagent] [info] Getting Manifest... eamodio.gitlens
+[2023-04-12 13:31:19.154] [remoteagent] [info] Installing extension: eamodio.gitlens
+[2023-04-12 13:31:19.489] [remoteagent] [info] Downloaded extension: eamodio.gitlens /home/23SP/23SP_haseebz/.vscode-server/data/CachedExtensionVSIXs/eamodio.gitlens-12.1.2
+[2023-04-12 13:31:19.872] [remoteagent] [info] Extracted extension to /home/23SP/23SP_haseebz/.vscode-server/extensions/.c6ca1f78-e094-40b0-a9d3-0ebf3d4b5fe2: eamodio.gitlens
+[2023-04-12 13:31:19.885] [remoteagent] [info] Renamed to /home/23SP/23SP_haseebz/.vscode-server/extensions/eamodio.gitlens-12.1.2
+[2023-04-12 13:31:19.892] [remoteagent] [info] Extracting completed. eamodio.gitlens
+[2023-04-12 13:31:19.893] [remoteagent] [info] Extension installed successfully: eamodio.gitlens
