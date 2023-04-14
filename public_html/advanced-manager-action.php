@@ -18,7 +18,7 @@ function listManagers()
                  INNER JOIN  Manager m ON (p.Person_id = m.Person_iD)";
     
     if (! empty($_POST["search"]["value"])) {
-        $sqlQuery .= 'WHERE (p.first_name LIKE "%' . $_POST["search"]["value"] . '%" OR p.last_name LIKE "%' . $_POST["search"]["value"] . '%"';
+        $sqlQuery .= 'WHERE (p.first_name LIKE "%' . $_POST["search"]["value"] . '%" OR p.last_name LIKE "%' . $_POST["search"]["value"] . '%")';
     }
     
     if (! empty($_POST["order"])) {

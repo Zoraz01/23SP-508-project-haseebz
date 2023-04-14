@@ -15,26 +15,27 @@ function listClubs()
                         Points as 'Points',
                         Division_name as 'Division Name'
                     FROM Club";
-    
+    /*
     if (! empty($_POST["search"]["value"])) {
-        $sqlQuery .= 'WHERE (Club_name LIKE "%' . $_POST["search"]["value"] . '%"';
+        $sqlQuery .= 'WHERE Club_name LIKE "%' . $_POST["search"]["value"] . '%" ';
     }
-    
+    */
+    /*
     if (! empty($_POST["order"])) {
         $sqlQuery .= 'ORDER BY ' . ($_POST['order']['0']['column'] + 1) . ' ' . $_POST['order']['0']['dir'] . ' ';
     } else {
         $sqlQuery .= 'ORDER BY Club_name DESC ';
     }
-    
+    */
     $stmt = $conn->prepare($sqlQuery);
     $stmt->execute();
     
     $numberRows = $stmt->rowCount();
-    
+    /*
     if ($_POST["length"] != - 1) {
         $sqlQuery .= 'LIMIT ' . $_POST['start'] . ', ' . $_POST['length'];
     }
-    
+    */
     $stmt = $conn->prepare($sqlQuery);
     $stmt->execute();
     
@@ -72,7 +73,7 @@ function getClub()
     if ($_POST["ID"]) {
         
         $sqlQuery = "SELECT 
-                            Club_id,
+                            Club_id as 'ID',
                             Club_name,
                             Games_played,
                             Goals_Scored,
@@ -104,7 +105,7 @@ function updateClub()
                             Goals_Conceded = :Goals_Conceded,
                             Points = :Points,
                             Division_name = :Division_name
-                        WHERE Club_name = :Club_name";
+                        WHERE Club_iD = :Club_iD";
         
         $stmt = $conn->prepare($sqlQuery);
         $stmt->bindValue(':Games_played', $_POST["gamesplayed"]);
@@ -113,6 +114,7 @@ function updateClub()
         $stmt->bindValue(':Points', $_POST["points"]);
         $stmt->bindValue(':Division_name', $_POST["division"]);
         $stmt->bindValue(':Club_name', $_POST["clubname"]);
+        $stmt->bindValue(':Club_iD', $_POST["ID"]);
         $stmt->execute();
     }
 }

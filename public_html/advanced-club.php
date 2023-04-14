@@ -35,7 +35,7 @@
 		<table id="table-club" class="table table-bordered table-striped">
 			<thead>
 				<tr>
-				<th>ID</th>
+					<th>ID</th>
                     <th>Club Name</th>
                     <th>Games Played</th>
                     <th>Goals Scored</th>
@@ -78,7 +78,7 @@
                                 $stmt = $conn->prepare($sqlQuery);
                                 $stmt->execute();
                                 while ($row = $stmt->fetch()) {
-                                    echo "<option value=\"" . $row["Division_name"] . "\">" . $row["Divison_name"] . "</option>";
+                                    echo "<option value=\"" . $row["Division_name"] . "\">" . $row["Division_name"] . "</option>";
                                 }
                             ?>
                         </select>                       

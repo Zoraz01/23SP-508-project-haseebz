@@ -86,7 +86,7 @@ $(document).ready(function(){
 				// Copy variables from the returned JSON from the SQL query in getEmployee into the modal (popup)
 				$('#club-modal').modal('show');
                 $('#ID').val(ID);
-                $('#clubname').val(Club_name);
+                $('#clubname').val(data.Club_name);
                 $('#gamesplayed').val(data.Games_played);
                 $('#goalsscored').val(data.Goals_Scored);
                 $('#goalsconceded').val(data.Goals_conceded);
