@@ -15,6 +15,7 @@
 <li><a href="deletePerson.php">Delete a Person</a></li>
 <li><a href="advanced-player.php">Advanced information about Players (add, edit, delete, search, sort, export)</a></li>
 <li><a href="advanced-manager.php">Advanced information about Managers (add, edit, delete, search, sort, export)</a></li>
+<li><a href="advanced-club.php">Advanced information about Club (add, edit, delete, search, sort, export)</a></li>
 </ul>
 </body>
 </html>

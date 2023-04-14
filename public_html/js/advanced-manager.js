@@ -28,7 +28,7 @@ $(document).ready(function(){
 				},
 				{
 					extend: 'pdfHtml5',
-					title: 'PManagers',
+					title: 'Managers',
 					filename: 'Managers',
 					exportOptions: {columns: [1,2,3,4,5,6]}
 				},
