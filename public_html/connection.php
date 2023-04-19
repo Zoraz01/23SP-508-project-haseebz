@@ -23,14 +23,23 @@ session_start();
 if (!isset($_SESSION['user_ID']))
 {
     // If the page is receiving the email and password from the login form then verify the login data
+
     if (isset($_POST['email']) && isset($_POST['password']))
     {
+        
         $stmt = $conn->prepare("SELECT ID, password FROM user WHERE email=:email");
         $stmt->bindValue(':email', $_POST['email']);
         $stmt->execute();
         
         $queryResult = $stmt->fetch();
-        
+        if(!empty($queryResult)  && $_POST['email'] == 'admin@vcu.edu' && password_verify($_POST["password"], $queryResult['password'])){
+            $_SESSION['user_ID'] = $queryResult['ID'];
+            
+            // Redirect to main page 
+            header("Location: indexAdmin.php");
+            return;
+        }
+
         // Verify password submitted by the user with the hash stored in the database
         if(!empty($queryResult) && password_verify($_POST["password"], $queryResult['password']))
         {
