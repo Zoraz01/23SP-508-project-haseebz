@@ -47,7 +47,7 @@ if (!isset($_SESSION['user_ID']))
             $_SESSION['user_ID'] = $queryResult['ID'];
             
             // Redirect to main page 
-            header("Location: index.php");
+            header("Location: homePage.php");
         } else {
             // Password mismatch, show login page
             require('login.php');

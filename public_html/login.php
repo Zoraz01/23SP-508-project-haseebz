@@ -1,6 +1,7 @@
 <html>
 <head>
 <title>Premiere League database</title>
+<link rel="icon" type="image/x-icon" href="images/ball.png">
 <?php require_once('header.php'); ?>
 </head>
 
