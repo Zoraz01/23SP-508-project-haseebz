@@ -17,10 +17,11 @@
   <body style = "background-color: #04f5ff;">
     <?php require_once('navBar.php'); ?>
     <div class = "container-sm" style = "margin-top: 50px;">
-        <table id = "leagueTable" class="table table-secondary table-striped table-hover">
+        <table id = "leagueTable" class="table table-dark table-secondary table-striped table-hover">
             <thead>
                 <tr>
                 <th scope="col">Position</th>
+                <th scope="col"></th>
                 <th scope="col">Club</th>
                 <th scope="col">Matches Played</th>
                 <th scope="col">Goals Scored</th>
@@ -29,6 +30,9 @@
                 </tr>
             </thead>
             <tbody class = "table-group-divider">
+            <tr>
+                <th scope = "row"> <img scr = "images/club-images/liverpool_fc_17975.png"> </th>
+            </tr>
             </tbody>
         </table>
     </div>

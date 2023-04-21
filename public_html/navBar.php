@@ -11,8 +11,8 @@
     <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
       <div class="navbar-nav">
         <a class="nav-link active" aria-current="page" href="homePage.php">Home</a>
-        <a class="nav-link" href="#" >League Table</a>
-        <a class="nav-link" href="#">Fixtures</a>
+        <a class="nav-link" href="league-Table.php" >League Table</a>
+        <a class="nav-link" href="fixtures.php">Fixtures</a>
         <a class="nav-link" href="#">League Leaders</a>
       </div>
   </div>

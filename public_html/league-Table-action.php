@@ -8,13 +8,15 @@ function listClubs()
     global $conn;
     
     $sqlQuery = "SELECT Club_id as 'ID',
-                        Club_name as `Club Name`,
-                        Games_played as 'Games Played',
-                        Goals_Scored as 'Goals Scored',
-                        Goals_Conceded as 'Goals Conceded',
-                        Points as 'Points',
-                        Division_name as 'Division Name'
-                    FROM Club ORDER BY Points DESC" ;
+    RANK() OVER (ORDER BY Points DESC) AS rankk,
+                    Club_name as `club_name`,
+                    Games_played as 'games_played',
+                    Goals_Scored as 'goals_scored',
+                    Goals_Conceded as 'goals_conceded',
+                    Points as 'points',
+                    Division_name as 'division_name',
+                    image as 'image'
+                FROM Club ORDER BY Points DESC" ;
     /*
     if (! empty($_POST["search"]["value"])) {
         $sqlQuery .= 'WHERE (Club_name LIKE "%' . $_POST["search"]["value"] . '%")';
@@ -43,13 +45,13 @@ function listClubs()
     
     while ($sqlRow = $stmt->fetch()) {
         $dataRow = array();
-        
-        $dataRow[] = $sqlRow['ID'];
-        $dataRow[] = $sqlRow['Club Name'];
-        $dataRow[] = $sqlRow['Games Played'];
-        $dataRow[] = $sqlRow['Goals Scored'];
-        $dataRow[] = $sqlRow['Goals Conceded'];
-        $dataRow[] = $sqlRow['Points'];
+        $dataRow[] = $sqlRow['rankk'];
+        $dataRow[] = $sqlRow['image'];
+        $dataRow[] = $sqlRow['club_name'];
+        $dataRow[] = $sqlRow['games_played'];
+        $dataRow[] = $sqlRow['goals_scored'];
+        $dataRow[] = $sqlRow['goals_conceded'];
+        $dataRow[] = $sqlRow['points'];
         
         $dataTable[] = $dataRow;
     }
