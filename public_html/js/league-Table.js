@@ -21,7 +21,7 @@ $(document).ready(function(){
 		"columns": [
 			{ "data": 0 },
 			{ "data": 1, "render": function(data, type, row) {
-				return '<img src="' + data + '" alt="Club Image" style="width: 25px; height: 25px;">';
+				return '<img src="' + data + '" alt="Club Image" style="width: 30px; height: 30px;">';
 			}},
 			{ "data": 2 },
 			{ "data": 3 },

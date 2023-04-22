@@ -36,7 +36,7 @@
   
   <body style = "background-color: #04f5ff;">
     <?php require_once('navBar.php'); ?>
-    <!--<h1>Hello, world!</h1>-->
+    
     <div class = "center-image">
       <img src="images/Premier_League-Logo.wine.png" height = "400" width = "600">
     </div>
