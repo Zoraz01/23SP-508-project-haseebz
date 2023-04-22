@@ -30,9 +30,6 @@
                 </tr>
             </thead>
             <tbody class = "table-group-divider">
-            <tr>
-                <th scope = "row"> <img scr = "images/club-images/liverpool_fc_17975.png"> </th>
-            </tr>
             </tbody>
         </table>
     </div>

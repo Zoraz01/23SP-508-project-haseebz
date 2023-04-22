@@ -11,7 +11,6 @@ $(document).ready(function () {
         dataType: "json",
         success: function (response) {
           response.data.forEach(function (gameData) {
-            console.log(response); 
             createCard(gameData);
           });
         },

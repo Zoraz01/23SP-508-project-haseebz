@@ -13,8 +13,8 @@
         <a class="nav-link active" aria-current="page" href="homePage.php">Home</a>
         <a class="nav-link" href="league-Table.php" >League Table</a>
         <a class="nav-link" href="fixtures.php">Fixtures</a>
-        <a class="nav-link" href="#">League Leaders</a>
-        <a class="nav-link" href="#">Clubs</a>
+        <a class="nav-link" href="league-Leaders.php">League Leaders</a>
+        
       </div>
   </div>
 </nav>

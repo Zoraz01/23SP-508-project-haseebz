@@ -5,8 +5,6 @@ $(document).ready(function(){
 		"autoWidth": false,
 		"processing": true,
 		"serverSide": true,
-		"pageLength": 15,
-		"lengthMenu": [[15, 25, 50, 100, -1], [15, 25, 50, 100, "All"]],
 		"responsive": true,
 		"language": {processing: '<i class="fa fa-spinner fa-spin fa-2x fa-fw"></i>'},
 		"order": [],

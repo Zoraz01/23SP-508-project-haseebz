@@ -16,6 +16,7 @@ try {
     echo "Connection failed: " . $e->getMessage();
 }
 
+
 // Start or resume session variables
 session_start();
 
@@ -51,6 +52,7 @@ if (!isset($_SESSION['user_ID']))
         } else {
             // Password mismatch, show login page
             require('login.php');
+            $conn = null;
             exit();
         }
     }

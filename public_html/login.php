@@ -1,56 +1,57 @@
+<!DOCTYPE html>
 <html>
 <head>
 <title>Premiere League database</title>
 <link rel="icon" type="image/x-icon" href="images/ball.png">
 <?php require_once('header.php'); ?>
+<style>
+    .login-card {
+        min-height: 300px;
+    }
+    .full-height {
+        height: 100vh;
+    }
+    .center-contents {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+</style>
 </head>
-
-<?php require_once('connection.php'); ?>
-
-<body>
-
-	<div class="container mt-3 mb-3">
-		<form method="post">
-			<div class="row justify-content-center">
-				<div class="col-4">
-					<div class="form-group">
-						<label>Email:</label>
-						<input type="email" class="form-control" id="email" placeholder="Enter email" name="email" required>
-					</div>
-					<div class="form-group">
-						<label>Password:</label>
-						<input type="password" class="form-control" id="password" placeholder="Enter password" name="password" required>
-					</div>
-					<button type="submit" class="btn btn-primary">Log in</button>
-				</div>
-			</div>
-		</form>
-	</div>
-	
-	<div class="container">
-	
-	<p>To use this page, you need to first create a table `user` on your database as:</p>
-	
-	<p>
-	<code>
-    CREATE TABLE `user` (
-      `ID` int(11)  PRIMARY KEY AUTO_INCREMENT,
-      `email` varchar(255) NOT NULL,
-      `password` char(60) NOT NULL,
-      `name` varchar(255) NOT NULL
-    );
-    </code>
-    </p>
-    
-    <p>Then add a new user (e.g. user/password both <b>test@vcu.edu</b>). Use <a href='https://phppasswordhash.com/'>https://phppasswordhash.com/</a> to generate the hash for the password</p>
-    
-    <p>
-    <code>INSERT INTO `user` (`ID`, `email`, `password`, `name`) VALUES (1, 'test@vcu.edu', '$2y$10$m2VseJAjEXWM5MTYb8dfaehQGNzok5eT4GtNFu4nFw5hp6iLZ.yAK', 'Test User');</code>
-    </p>
-    
-    <p>Recommended practice: Create the sign up option to add new users to the database</p>
-     
-	</div>
-
+<body style="background-color: #04f5ff;">
+    <div class="container full-height center-contents">
+        <img src="images/Premier_League-Logo.wine.png" alt="Your image description" style="width: 300px; height: auto; margin-bottom: 20px;">
+        <div class="row justify-content-center w-100">
+            <div class="col-4">
+                <div class="card login-card">
+                    <div class="card-header">
+                        <h3 class="text-center">Login</h3>
+                    </div>
+                    <div class="card-body">
+                        <?php if (isset($errorMessage)): ?>
+                            <div class="alert alert-danger" role="alert">
+                                <?php echo $errorMessage; ?>
+                            </div>
+                        <?php endif; ?>
+                        <form method="post" action="login_process.php">
+                            <div class="form-floating mb-3">
+                                <input type="email" class="form-control" id="email" placeholder="name@example.com" name="email" required>
+                                <label for="floatingInput">Email address</label>
+                            </div>
+                            <div class="form-floating">
+                                <input type="password" class="form-control" id="password" placeholder="Password" name="password" required>
+                                <label for="floatingPassword">Password</label>
+                            </div>
+                            <div>
+                                <button type="submit" class="btn btn-primary" style="margin-top: 10px;">Log in</button>
+                                <a type="submit" class="btn btn-primary" style="margin-top: 10px;" href="sign-up.php">Sign up</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
