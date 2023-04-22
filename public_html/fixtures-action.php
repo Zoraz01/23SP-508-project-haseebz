@@ -19,7 +19,8 @@ function listGames()
                     INNER JOIN Home_game h on (g.Game_id = h.Game_id)
                     INNER JOIN Away_game a on (g.Game_id = a.Game_id)
                     INNER JOIN Club l on (h.Club_name = l.Club_name)
-                    INNER JOIN Club f on (a.Club_name = f.Club_name)";
+                    INNER JOIN Club f on (a.Club_name = f.Club_name)
+                    ORDER BY g.Date_played DESC";
                     
     $stmt = $conn->prepare($sqlQuery);
     $stmt->execute();
