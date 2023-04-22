@@ -14,6 +14,7 @@
         <a class="nav-link" href="league-Table.php" >League Table</a>
         <a class="nav-link" href="fixtures.php">Fixtures</a>
         <a class="nav-link" href="#">League Leaders</a>
+        <a class="nav-link" href="#">Clubs</a>
       </div>
   </div>
 </nav>
