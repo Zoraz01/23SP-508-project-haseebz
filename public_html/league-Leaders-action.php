@@ -85,7 +85,7 @@ function listAssisters()
                         m.Value as 'value'
                  FROM Person p
                  INNER JOIN  Player m ON (p.Person_id = m.Person_iD)
-                 ORDER BY assists";
+                 ORDER BY assists DESC";
     
     /*
     if (! empty($_POST["search"]["value"])) {

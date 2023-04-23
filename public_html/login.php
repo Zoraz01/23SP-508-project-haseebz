@@ -21,7 +21,7 @@
 </head>
 <body style="background-color: #04f5ff;">
     <div class="container full-height center-contents">
-        <img src="images/Premier_League-Logo.wine.png" alt="Your image description" style="width: 300px; height: auto; margin-bottom: 20px;">
+        <img src="images/Premier_League-Logo.wine.png" alt="Premier League" style="width: 300px; height: auto; margin-bottom: 20px;">
         <div class="row justify-content-center w-100">
             <div class="col-4">
                 <div class="card login-card">

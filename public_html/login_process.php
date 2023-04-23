@@ -39,6 +39,7 @@ if (!isset($_SESSION['user_ID'])) {
         exit();
     }
 } else {
+    
     // If the user is already logged in, redirect to the main page
     header("Location: homePage.php");
     exit;

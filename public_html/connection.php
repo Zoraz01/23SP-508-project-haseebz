@@ -8,12 +8,14 @@ $username = "23SP_haseebz";     // Replace yourVCUeid
 $password = "23SP_haseebz";     // Replace yourVCUeid
 $database = "23SP_haseebz_pr";  // Replace yourVCUeid
 
+
 try {
     // Establish a connection with the MySQL server
     $conn = new PDO("mysql:host=$servername;dbname=$database", $username, $password);
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);    
 } catch (PDOException $e) {
     echo "Connection failed: " . $e->getMessage();
+    exit();
 }
 
 
@@ -38,7 +40,7 @@ if (!isset($_SESSION['user_ID']))
             
             // Redirect to main page 
             header("Location: indexAdmin.php");
-            return;
+            exit();
         }
 
         // Verify password submitted by the user with the hash stored in the database
